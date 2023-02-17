@@ -129,7 +129,7 @@
             "type": "announcement",
             "settings": {
               "title": "20% DE DESCUENTO",
-              "text": "Promoción de bienvenida. Usa el código T3STORE. *Se aplican excepciones",
+              "text": "Promoción de bienvenida. Usa el código T3STORE.",
               "text_alignment": "center",
               "color_scheme": "accent-1",
               "link": "shopify:\/\/collections\/all"
