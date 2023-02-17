@@ -2208,15 +2208,26 @@ input[type='checkbox'] {
 
 .t3-announcement-bar {
   background: black;
-  padding: 0 20px;
   font-size: 1.5rem;
   display: flex;
 }
+.announcement-bar__link {
+  text-decoration: none;
+}
 
+.announcement-bar__container {
+  display: flex;
+  align-items: baseline;
+}
 .announcement-bar__title {
-  color: white;
-  font-weight: bold;
-  margin-right: 10px;
+  color: #fff;
+  font-weight: 700;
+  margin: 0 10px 0 0;
+  font-size: 1.9rem;
+}
+.announcement-bar__text {
+  color: #fff;
+  margin: 0 10px 0 0;
 }
 /* section-header */
 #shopify-section-header {

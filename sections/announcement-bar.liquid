@@ -10,17 +10,19 @@
         {%- if block.settings.link != blank -%}
           <a href="{{ block.settings.link }}" class="announcement-bar__link link link--text focus-inset animate-arrow">
           {%- endif -%}
-          <div class="page-width">
+
+          <div class='announcement-bar__container'>
             <p class="announcement-bar__title {{ block.settings.text_alignment }} h5">
               {{ block.settings.title | escape }}
             </p>
-            <p class="announcement-bar__message {{ block.settings.text_alignment }} h5">
+            <p class="announcement-bar__message {{ block.settings.text_alignment }}">
               {{ block.settings.text | escape }}
               {%- if block.settings.link != blank -%}
                 {% render 'icon-arrow' %}
               {%- endif -%}
             </p>
           </div>
+
           {%- if block.settings.link != blank -%}
           </a>
         {%- endif -%}
