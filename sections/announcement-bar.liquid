@@ -13,9 +13,6 @@
           <div class="page-width">
             <p class="announcement-bar__title {{ block.settings.text_alignment }} h5">
               {{ block.settings.title | escape }}
-              {%- if block.settings.link != blank -%}
-                {% render 'icon-arrow' %}
-              {%- endif -%}
             </p>
             <p class="announcement-bar__message {{ block.settings.text_alignment }} h5">
               {{ block.settings.text | escape }}
@@ -28,7 +25,7 @@
           </a>
         {%- endif -%}
       {%- endif -%}
-      <a href="{{ block.settings.link }}" class="announcement-bar__link link link--text focus-inset animate-arrow">
+      <a href="https://t3store.es/condiciones-promocion" class="announcement-bar__link link link--text focus-inset animate-arrow">
         * Ver condiciones de la promoción
       </a>
     </div>
