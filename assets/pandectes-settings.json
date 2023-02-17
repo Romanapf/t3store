@@ -5,7 +5,7 @@
     "primaryLocale": "en",
     "adminMode": false
   },
-  "tsPublished": 1676665025,
+  "tsPublished": 1676665036,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
@@ -350,13 +350,143 @@
   },
   "cookies": {
     "0": [
-
+      {
+        "name": "secure_customer_sig",
+        "domain": "t3store.es",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "1 year(s)",
+        "purpose": {
+          "en": "Used in connection with customer login."
+        }
+      },
+      {
+        "name": "localization",
+        "domain": "t3store.es",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "1 year(s)",
+        "purpose": {
+          "en": "Shopify store localization"
+        }
+      },
+      {
+        "name": "cart_currency",
+        "domain": "t3store.es",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "14 day(s)",
+        "purpose": {
+          "en": "Used in connection with shopping cart."
+        }
+      },
+      {
+        "name": "keep_alive",
+        "domain": "t3store.es",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "30 minute(s)",
+        "purpose": {
+          "en": "Used in connection with buyer localization."
+        }
+      }
     ],
     "1": [
 
     ],
     "2": [
-
+      {
+        "name": "_orig_referrer",
+        "domain": ".t3store.es",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "14 day(s)",
+        "purpose": {
+          "en": "Tracks landing pages."
+        }
+      },
+      {
+        "name": "_landing_page",
+        "domain": ".t3store.es",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "14 day(s)",
+        "purpose": {
+          "en": "Tracks landing pages."
+        }
+      },
+      {
+        "name": "_s",
+        "domain": ".t3store.es",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "30 minute(s)",
+        "purpose": {
+          "en": "Shopify analytics."
+        }
+      },
+      {
+        "name": "_shopify_y",
+        "domain": ".t3store.es",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "1 year(s)",
+        "purpose": {
+          "en": "Shopify analytics."
+        }
+      },
+      {
+        "name": "_shopify_s",
+        "domain": ".t3store.es",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "30 minute(s)",
+        "purpose": {
+          "en": "Shopify analytics."
+        }
+      },
+      {
+        "name": "_shopify_sa_p",
+        "domain": ".t3store.es",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "30 minute(s)",
+        "purpose": {
+          "en": "Shopify analytics relating to marketing & referrals."
+        }
+      },
+      {
+        "name": "_y",
+        "domain": ".t3store.es",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "1 year(s)",
+        "purpose": {
+          "en": "Shopify analytics."
+        }
+      },
+      {
+        "name": "_shopify_sa_t",
+        "domain": ".t3store.es",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "30 minute(s)",
+        "purpose": {
+          "en": "Shopify analytics relating to marketing & referrals."
+        }
+      }
     ],
     "4": [
 
