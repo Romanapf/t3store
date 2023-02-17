@@ -2229,6 +2229,13 @@ input[type='checkbox'] {
   color: #fff;
   margin: 0 10px 0 0;
 }
+
+.announcement-bar__legal {
+  color: #fff;
+  margin: 0 10px 0 0;
+  font-size: 1.5rem;
+}
+
 /* section-header */
 #shopify-section-header {
   z-index: 3;

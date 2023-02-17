@@ -11,15 +11,12 @@
           <a href="{{ block.settings.link }}" class="announcement-bar__link link link--text focus-inset animate-arrow">
           {%- endif -%}
 
-          <div class='announcement-bar__container'>
+          <div class='announcement-bar__container page-width'>
             <p class="announcement-bar__title {{ block.settings.text_alignment }} h5">
               {{ block.settings.title | escape }}
             </p>
             <p class="announcement-bar__message {{ block.settings.text_alignment }}">
               {{ block.settings.text | escape }}
-              {%- if block.settings.link != blank -%}
-                {% render 'icon-arrow' %}
-              {%- endif -%}
             </p>
           </div>
 
@@ -27,7 +24,7 @@
           </a>
         {%- endif -%}
       {%- endif -%}
-      <a href="https://t3store.es/condiciones-promocion" class="announcement-bar__link link link--text focus-inset animate-arrow">
+      <a href="https://t3store.es/condiciones-promocion" class="announcement-bar__legal">
         * Ver condiciones de la promoción
       </a>
     </div>
