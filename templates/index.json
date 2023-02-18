@@ -78,13 +78,22 @@
             "image": "shopify:\/\/shop_images\/zapatillas-t3store.jpg",
             "description": "Description"
           }
+        },
+        "e03dabcb-6d1c-4b16-aae6-8ea762e1eb1b": {
+          "type": "column",
+          "settings": {
+            "title": "Bicicletas",
+            "image": "shopify:\/\/shop_images\/zapatillas-t3store.jpg",
+            "description": "Description"
+          }
         }
       },
       "block_order": [
         "d9a67e35-4af2-4f2e-852f-a8f7851652a3",
         "20229a16-7f9a-411c-917b-023f89422da3",
         "753fdbb0-3c1d-4649-98d3-4b05c457bf51",
-        "6f8328c5-c402-43e0-8fa7-57a202222797"
+        "6f8328c5-c402-43e0-8fa7-57a202222797",
+        "e03dabcb-6d1c-4b16-aae6-8ea762e1eb1b"
       ],
       "settings": {
         "heading": "My Custom Heading"
