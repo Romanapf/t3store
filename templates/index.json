@@ -44,6 +44,25 @@
         "padding_bottom": 0
       }
     },
+    "812050e8-e840-4373-a1d9-bd07d1e75c75": {
+      "type": "slick-slider",
+      "blocks": {
+        "d9a67e35-4af2-4f2e-852f-a8f7851652a3": {
+          "type": "column",
+          "settings": {
+            "title": "Title",
+            "image": "shopify:\/\/shop_images\/zapatillas-t3store.jpg",
+            "description": "Description"
+          }
+        }
+      },
+      "block_order": [
+        "d9a67e35-4af2-4f2e-852f-a8f7851652a3"
+      ],
+      "settings": {
+        "heading": "My Custom Heading"
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -300,6 +319,7 @@
   },
   "order": [
     "image-with-text",
+    "812050e8-e840-4373-a1d9-bd07d1e75c75",
     "featured_collection",
     "image-with-text-1",
     "image-with-text-2",
