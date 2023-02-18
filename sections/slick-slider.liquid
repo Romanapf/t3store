@@ -1,3 +1,10 @@
+{{ 'slick.js' | asset_url | script_tag }}
+{{ 'slick.css' | asset_url | stylesheet_tag }}
+{{ 'slick-theme.css' | asset_url | stylesheet_tag }}
+
+
+{% assign slick = section.settings.slick | json %}
+
 <h2>{{section.settings.heading}}</h2>
 <div class="rapf-carousel">
 {%- for block in section.blocks -%}
@@ -14,6 +21,41 @@
   </div>
 {% endfor %}
 </div>
+
+{{ "jquery-1.11.0.min.js" | asset_url | script_tag }}
+{{ "jquery-migrate-1.2.1.min.js" | asset_url | script_tag }}
+{{ "slick.min.js" | asset_url | script_tag }}
+
+
+{% assign slick = section.settings.slick | json %}
+
+<script>
+  $('.rapf-carousel').slick({
+  centerMode: true,
+  centerPadding: '60px',
+  slidesToShow: 3,
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 3
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 1
+      }
+    }
+  ]
+});
+</script>
 {% schema %}
   {
     "name": "Slick Slider",
