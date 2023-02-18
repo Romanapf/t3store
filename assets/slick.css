@@ -107,6 +107,14 @@
   border-radius: 100%;
 }
 
+.slick-prev.slick-arrow {
+  left: 40px;
+}
+
+.slick-next.slick-arrow {
+  right: 40px;
+}
+
 .slick-arrow.slick-prev::before,
 .slick-arrow.slick-next::before {
   color: #000000;
