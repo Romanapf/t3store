@@ -44,8 +44,66 @@
         "padding_bottom": 0
       }
     },
-    "56b877d9-d7b7-487d-820b-663e5b9f2947": {
+    "812050e8-e840-4373-a1d9-bd07d1e75c75": {
       "type": "slick-slider",
+      "blocks": {
+        "d9a67e35-4af2-4f2e-852f-a8f7851652a3": {
+          "type": "column",
+          "settings": {
+            "title": "Zapatillas",
+            "image": "shopify:\/\/shop_images\/zapatillas-t3store.jpg",
+            "description": "Description"
+          }
+        },
+        "20229a16-7f9a-411c-917b-023f89422da3": {
+          "type": "column",
+          "settings": {
+            "title": "Mallas deportivas",
+            "image": "shopify:\/\/shop_images\/zapatillas-t3store.jpg",
+            "description": "Description"
+          }
+        },
+        "753fdbb0-3c1d-4649-98d3-4b05c457bf51": {
+          "type": "column",
+          "settings": {
+            "title": "Kit seguridad en bicicleta",
+            "image": "shopify:\/\/shop_images\/zapatillas-t3store.jpg",
+            "description": "Description"
+          }
+        },
+        "6f8328c5-c402-43e0-8fa7-57a202222797": {
+          "type": "column",
+          "settings": {
+            "title": "GPS",
+            "image": "shopify:\/\/shop_images\/zapatillas-t3store.jpg",
+            "description": "Description"
+          }
+        },
+        "e03dabcb-6d1c-4b16-aae6-8ea762e1eb1b": {
+          "type": "column",
+          "settings": {
+            "title": "Bicicletas",
+            "image": "shopify:\/\/shop_images\/zapatillas-t3store.jpg",
+            "description": "Description"
+          }
+        },
+        "734f87cc-a25b-4f26-a59d-340795eca394": {
+          "type": "column",
+          "settings": {
+            "title": "Gafas de nadar",
+            "image": "shopify:\/\/shop_images\/zapatillas-t3store.jpg",
+            "description": "Description"
+          }
+        }
+      },
+      "block_order": [
+        "d9a67e35-4af2-4f2e-852f-a8f7851652a3",
+        "20229a16-7f9a-411c-917b-023f89422da3",
+        "753fdbb0-3c1d-4649-98d3-4b05c457bf51",
+        "6f8328c5-c402-43e0-8fa7-57a202222797",
+        "e03dabcb-6d1c-4b16-aae6-8ea762e1eb1b",
+        "734f87cc-a25b-4f26-a59d-340795eca394"
+      ],
       "settings": {
         "heading": "My Custom Heading"
       }
@@ -306,7 +364,7 @@
   },
   "order": [
     "image-with-text",
-    "56b877d9-d7b7-487d-820b-663e5b9f2947",
+    "812050e8-e840-4373-a1d9-bd07d1e75c75",
     "featured_collection",
     "image-with-text-1",
     "image-with-text-2",
