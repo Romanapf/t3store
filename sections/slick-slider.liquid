@@ -5,22 +5,23 @@
 
 {% assign slick = section.settings.slick | json %}
 
-<h2>{{section.settings.heading}}</h2>
-<div class="rapf-carousel">
-{%- for block in section.blocks -%}
-  <div class="rapf-carousel__slide">
-    <div class="rapf-carousel__slide-container">
-      <img
-        class="rapf-carousel__slide-image"
-        src="{{ block.settings.image | img_url: 'master'}}"
-      />
-      <h4 class="rapf-carousel__slide-title">
-        {{ block.settings.title }}
-      </h4>
+<section class='page-width'>
+  {%- if section.settings.heading != blank -%}
+  <h2>{{section.settings.heading}}</h2>
+  {%- endif -%}
+  <div class="rapf-carousel">
+    {%- for block in section.blocks -%}
+    <div class="rapf-carousel__slide">
+      <div class="rapf-carousel__slide-container">
+        <img class="rapf-carousel__slide-image" src="{{ block.settings.image | img_url: 'master'}}" />
+        <h4 class="rapf-carousel__slide-title">
+          {{ block.settings.title }}
+        </h4>
+      </div>
     </div>
+    {% endfor %}
   </div>
-{% endfor %}
-</div>
+</section>
 
 {{ "jquery-1.11.0.min.js" | asset_url | script_tag }}
 {{ "jquery-migrate-1.2.1.min.js" | asset_url | script_tag }}
@@ -31,132 +32,136 @@
 
 <script>
   $('.rapf-carousel').slick({
-  centerMode: true,
-  centerPadding: '60px',
-  slidesToShow: 4,
-  responsive: [
-    {
-      breakpoint: 768,
-      settings: {
-        arrows: true,
-        centerMode: true,
-        centerPadding: '40px',
-        slidesToShow: 3
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        arrows: true,
-        centerMode: true,
-        centerPadding: '40px',
-        slidesToShow: 1
-      }
-    }
-  ]
-});
-</script>
-{% schema %}
-  {
-    "name": "Slick Slider",
-    "settings": [
+    centerMode: true,
+    centerPadding: '60px',
+    slidesToShow: 5,
+    responsive: [
       {
-        "type": "text",
-        "id": "heading",
-        "label" : "Heading",
-        "default" : "My Custom Heading"
-      }
-    ],
-    "blocks" : [
+        breakpoint: 768,
+        settings: {
+          arrows: true,
+          centerMode: true,
+          centerPadding: '40px',
+          slidesToShow: 3
+        }
+      },
       {
-        "type" : "column",
-        "name" : "slide",
-        "settings" : [
-          {
-            "type" : "text",
-            "id" : "title",
-            "label" : "Title",
-            "default" : "Title"
-          },
-          {
-            "type": "image_picker",
-            "id" : "image",
-            "label" :  "Image"
-          },
-          {
-            "type" : "text",
-            "id" : "description",
-            "label" : "Description",
-            "default" : "Description"
-          }
-        ]
-      }
-    ],
-    "presets": [
-      {
-        "name": "Slick Slider"
+        breakpoint: 480,
+        settings: {
+          arrows: true,
+          centerMode: true,
+          centerPadding: '40px',
+          slidesToShow: 1
+        }
       }
     ]
-  }
+  });
+</script>
+{% schema %}
+{
+"name": "Slick Slider",
+"settings": [
+{
+"type": "text",
+"id": "heading",
+"label" : "Heading",
+"default" : "My Custom Heading"
+}
+],
+"blocks" : [
+{
+"type" : "column",
+"name" : "slide",
+"settings" : [
+{
+"type" : "text",
+"id" : "title",
+"label" : "Title",
+"default" : "Title"
+},
+{
+"type": "image_picker",
+"id" : "image",
+"label" : "Image"
+},
+{
+"type" : "text",
+"id" : "description",
+"label" : "Description",
+"default" : "Description"
+}
+]
+}
+],
+"presets": [
+{
+"name": "Slick Slider"
+}
+]
+}
 {% endschema %}
 {% stylesheet %}
 .rapf-carousel{
-  width: 100%;
-  height: 100%;
-  margin: 0 auto;
-  padding: 0;
-  position: relative;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #fff;
-  border-radius: 5px;
-  gap: 16px;
+width: 100%;
+height: 100%;
+margin: 0 auto;
+padding: 0;
+position: relative;
+overflow: hidden;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #fff;
+border-radius: 5px;
+gap: 16px;
 }
 
 .rapf-carousel__slide{
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  background-color: #fff;
-  border-radius: 5px;
+width: 100%;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+background-color: #fff;
+border-radius: 5px;
 }
 
 .rapf-carousel__slide-container{
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  flex-direction: column;
-  background-color: #fff;
-  border-radius: 5px;
+width: 100%;
+height: 100%;
+display: flex;
+align-items: flex-start;
+justify-content: center;
+flex-direction: column;
+background-color: #fff;
+border-radius: 5px;
 }
 
 .rapf-carousel__slide-image{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 16px;
+width: 100%;
+height: 300px;
+object-fit: cover;
+border-radius: 16px;
 }
 
 .rapf-carousel__slide-title{
-  font-size: 1.5rem;
-  font-weight: 500;
-  margin-top: 20px;
-  text-align: center;
-  font-family: var(--font-body-family);
+font-size: 1.5rem;
+font-weight: 500;
+margin-top: 20px;
+text-align: center;
+visibility: hidden;
+font-family: var(--font-body-family);
+}
 
+.slick-current .rapf-carousel__slide-title{
+visibility: visible;
 }
 
 
 {% endstylesheet %}
 
 {% javascript %}
-  
+
 
 {% endjavascript %}
