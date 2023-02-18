@@ -1,49 +1,5 @@
 {
   "sections": {
-    "image-with-text": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "All for swim ,bike, run 🏊🚴🏃",
-            "heading_size": "h1"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to share something inspiring about your brand that encourages shoppers to browse your products.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "button": {
-          "type": "button",
-          "settings": {
-            "button_label": "Comprar",
-            "button_link": "shopify:\/\/collections\/all"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "button"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/banner-t3.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "812050e8-e840-4373-a1d9-bd07d1e75c75": {
       "type": "slick-slider",
       "blocks": {
@@ -58,33 +14,33 @@
         "20229a16-7f9a-411c-917b-023f89422da3": {
           "type": "column",
           "settings": {
-            "title": "Mallas deportivas",
-            "image": "shopify:\/\/shop_images\/zapatillas-t3store.jpg",
-            "description": "Description"
+            "title": "Ditchil Women's sports wear",
+            "image": "shopify:\/\/shop_images\/t3-store-new-collection.jpg",
+            "description": ""
           }
         },
         "753fdbb0-3c1d-4649-98d3-4b05c457bf51": {
           "type": "column",
           "settings": {
-            "title": "Kit seguridad en bicicleta",
-            "image": "shopify:\/\/shop_images\/zapatillas-t3store.jpg",
-            "description": "Description"
+            "title": "Ropa de bicicleta",
+            "image": "shopify:\/\/shop_images\/t3-spiuk-collection.jpg",
+            "description": ""
           }
         },
         "6f8328c5-c402-43e0-8fa7-57a202222797": {
           "type": "column",
           "settings": {
-            "title": "GPS",
-            "image": "shopify:\/\/shop_images\/zapatillas-t3store.jpg",
-            "description": "Description"
+            "title": "GPS No pierdas tus vatios",
+            "image": "shopify:\/\/shop_images\/t3-coospo-collection.jpg",
+            "description": ""
           }
         },
         "e03dabcb-6d1c-4b16-aae6-8ea762e1eb1b": {
           "type": "column",
           "settings": {
-            "title": "Bicicletas",
-            "image": "shopify:\/\/shop_images\/zapatillas-t3store.jpg",
-            "description": "Description"
+            "title": "Correr nunca fue tan divertida",
+            "image": "shopify:\/\/shop_images\/t3store-camisetas.jpg",
+            "description": ""
           }
         },
         "734f87cc-a25b-4f26-a59d-340795eca394": {
@@ -105,7 +61,7 @@
         "734f87cc-a25b-4f26-a59d-340795eca394"
       ],
       "settings": {
-        "heading": "My Custom Heading"
+        "heading": ""
       }
     },
     "featured_collection": {
@@ -363,7 +319,6 @@
     }
   },
   "order": [
-    "image-with-text",
     "812050e8-e840-4373-a1d9-bd07d1e75c75",
     "featured_collection",
     "image-with-text-1",
