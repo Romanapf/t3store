@@ -11,7 +11,8 @@
   {%- endif -%}
   <div class="rapf-carousel">
     {%- for block in section.blocks -%}
-    <a href="{{ block.settings.url }}" class="rapf-carousel__slide">
+
+    <a class="rapf-carousel__slide" href="{{ block.settings.button_link }}">
       <div class="rapf-carousel__slide-container">
         <img class="rapf-carousel__slide-image" src="{{ block.settings.image | img_url: 'master'}}" />
         <h4 class="rapf-carousel__slide-title">
@@ -86,9 +87,8 @@
 },
 {
 "type" : "url",
-"id" : "url",
-"label" : "URL",
-"default" : "https://www.t3store.com"
+"id" : "button_link",
+"label" : "URL"
 }
 ]
 }
