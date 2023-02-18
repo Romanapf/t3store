@@ -18,27 +18,34 @@
 {% schema %}
 {
   "name": "Slick slider",
-  "settings": [{
-    "type": "text",
-    "id": "heading",
-    "label": "Heading",
-    "default": "My Custom Heading"
-  }],
-  "blocks":[{
-    "type": "columns",
-    "name": "slide",
-    "settings": [{
-      "type": "image_picker",
-      "id": "image",
-      "label": "Image",
-      "default": "https://cdn.shopify.com/s/files/1/0274/0501/9702/files/1_1.jpg?v=1585210000"
-    }, {
+  "settings": [
+    {
       "type": "text",
-      "id": "text",
-      "label": "Text",
-      "default": "My Custom Text"   
-    }]
-  }],
+      "id": "heading",
+      "label": "Heading",
+      "default": "My Custom Heading"
+    }
+  ],
+  "blocks":[
+    {
+      "type": "columns",
+      "name": "slide",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image",
+          "default": "https://cdn.shopify.com/s/files/1/0274/0501/9702/files/1_1.jpg?v=1585210000"
+        }, 
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Text",
+          "default": "My Custom Text"   
+        }
+      ]
+    }
+  ],
   "presets": [{
     "name": "Slick Slider"
   }]
