@@ -1,0 +1,42 @@
+
+{% comment %}
+  Product Carousel
+{% endcomment %}
+
+{% assign best_sellers = collections.all.products | sort: 'best-selling' | limit: 10 %}
+{% assign random_products = collections.all.products | sample: 10 %}
+
+{% if best_sellers.size > 0 %}
+  {% assign products = best_sellers %}
+{% else %}
+  {% assign products = random_products %}
+{% endif %}
+
+{% if products.size > 0 %}
+
+  <div class="product-carousel">
+
+    <div class="product-carousel-inner">
+
+      {% for product in products %}
+
+        <div class="product-carousel-item">
+          <a href="{{ product.url }}" class="product-carousel-image">
+            <img src="{{ product.featured_image.src | img_url }}" alt="{{ product.title }}">
+          </a>
+          <h3 class="product-carousel-title">
+            <a href="{{ product.url }}">{{ product.title }}</a>
+          </h3>
+          <div class="product-carousel-price">{{ product.price | money }}</div>
+        </div>
+
+      {% endfor %}
+
+    </div>
+
+    <button class="product-carousel-prev"><</button>
+    <button class="product-carousel-next">></button>
+
+  </div>
+
+{% endif %}
