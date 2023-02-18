@@ -161,36 +161,8 @@
       },
       "footer": {
         "type": "footer",
-        "blocks": {
-          "link-list": {
-            "type": "link_list",
-            "settings": {
-              "heading": "ABOUT US",
-              "menu": "footer"
-            }
-          },
-          "image": {
-            "type": "image",
-            "settings": {
-              "image_width": 70,
-              "alignment": "right"
-            }
-          },
-          "text": {
-            "type": "text",
-            "settings": {
-              "heading": "",
-              "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
-            }
-          }
-        },
-        "block_order": [
-          "link-list",
-          "image",
-          "text"
-        ],
         "settings": {
-          "color_scheme": "background-2",
+          "color_scheme": "accent-1",
           "newsletter_enable": false,
           "newsletter_heading": "",
           "show_social": true,
