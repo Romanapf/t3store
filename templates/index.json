@@ -48,7 +48,7 @@
       "type": "carousel-collection",
       "settings": {
         "title": "Featured Collection",
-        "collection": "zapatillas",
+        "collection": "running",
         "product_count": 4
       }
     },
