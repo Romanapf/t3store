@@ -58,15 +58,23 @@
         "20229a16-7f9a-411c-917b-023f89422da3": {
           "type": "column",
           "settings": {
-            "title": "Title",
+            "title": "Mallas deportivas",
             "image": "shopify:\/\/shop_images\/zapatillas-t3store.jpg",
+            "description": "Description"
+          }
+        },
+        "753fdbb0-3c1d-4649-98d3-4b05c457bf51": {
+          "type": "column",
+          "settings": {
+            "title": "Title",
             "description": "Description"
           }
         }
       },
       "block_order": [
         "d9a67e35-4af2-4f2e-852f-a8f7851652a3",
-        "20229a16-7f9a-411c-917b-023f89422da3"
+        "20229a16-7f9a-411c-917b-023f89422da3",
+        "753fdbb0-3c1d-4649-98d3-4b05c457bf51"
       ],
       "settings": {
         "heading": "My Custom Heading"
