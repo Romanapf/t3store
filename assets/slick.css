@@ -117,8 +117,7 @@
 
 .slick-prev.slick-arrow:hover,
 .slick-next.slick-arrow:hover {
-  background: #000000;
-  color: white;
+  background: #fff;
 }
 
 .slick-arrow.slick-prev::before,

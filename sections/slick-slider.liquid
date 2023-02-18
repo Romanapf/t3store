@@ -11,7 +11,7 @@
   {%- endif -%}
   <div class="rapf-carousel">
     {%- for block in section.blocks -%}
-    <a href='{{ block.settings.url }}' class="button" id="ViewAllButton-{{ block.settings.url }}" aria-labelledby="ViewAllButton-{{ block.settings.url }} SectionHeading-{{ block.settings.url }}">
+    <a href="{{ block.settings.url }}" class="button" id="ViewAllButton-{{ block.settings.url }}" aria-labelledby="ViewAllButton-{{ block.settings.url }} SectionHeading-{{ block.settings.url }}">
       <div class="rapf-carousel__slide">
         <div class="rapf-carousel__slide-container">
           <img class="rapf-carousel__slide-image" src="{{ block.settings.image | img_url: 'master'}}" />
