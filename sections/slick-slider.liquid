@@ -5,9 +5,9 @@
 
 {% assign slick = section.settings.slick | json %}
 
-<section class='page-width'>
+<section>
   {%- if section.settings.heading != blank -%}
-  <h2>{{section.settings.heading}}</h2>
+  <h2 class='page-width'>{{section.settings.heading}}</h2>
   {%- endif -%}
   <div class="rapf-carousel">
     {%- for block in section.blocks -%}
