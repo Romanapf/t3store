@@ -44,12 +44,10 @@
         "padding_bottom": 0
       }
     },
-    "76861dd2-390f-4fe3-ad89-c50ed80bf5ec": {
-      "type": "carousel-collection",
+    "56b877d9-d7b7-487d-820b-663e5b9f2947": {
+      "type": "slick-slider",
       "settings": {
-        "title": "Featured Collection",
-        "collection": "zapatillas",
-        "product_count": 4
+        "heading": "My Custom Heading"
       }
     },
     "featured_collection": {
@@ -308,7 +306,7 @@
   },
   "order": [
     "image-with-text",
-    "76861dd2-390f-4fe3-ad89-c50ed80bf5ec",
+    "56b877d9-d7b7-487d-820b-663e5b9f2947",
     "featured_collection",
     "image-with-text-1",
     "image-with-text-2",
