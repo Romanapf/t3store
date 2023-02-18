@@ -1,5 +1,20 @@
+<section class='page-width'>
 <h2>{{section.settings.heading}}</h2>
-
+<div class='rapf-slider'>
+  {% for block in section.blocks %}
+  <div class='rapf-slider_slide'>
+    <img src="{{image}}" alt="image">
+    <p>{{text}}</p>
+  </div>
+  {% endfor %}
+</div>
+<div>
+  <div>
+    <img src="https://cdn.shopify.com/s/files/1/0274/0501/9702/files/1_1.jpg?v=1585210000" alt="image">
+    <p></p>
+  </div>
+</div>
+</section>
 {% schema %}
 {
   "name": "Slick slider",
@@ -8,6 +23,21 @@
     "id": "heading",
     "label": "Heading",
     "default": "My Custom Heading"
+  }],
+  "blocks":[{
+    "type": "columns",
+    "name": "slide",
+    "settings": [{
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image",
+      "default": "https://cdn.shopify.com/s/files/1/0274/0501/9702/files/1_1.jpg?v=1585210000"
+    }, {
+      "type": "text",
+      "id": "text",
+      "label": "Text",
+      "default": "My Custom Text"   
+    }]
   }],
   "presets": [{
     "name": "Slick Slider"
