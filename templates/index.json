@@ -44,12 +44,6 @@
         "padding_bottom": 0
       }
     },
-    "56b877d9-d7b7-487d-820b-663e5b9f2947": {
-      "type": "slick-slider",
-      "settings": {
-        "heading": "My Custom Heading"
-      }
-    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -306,7 +300,6 @@
   },
   "order": [
     "image-with-text",
-    "56b877d9-d7b7-487d-820b-663e5b9f2947",
     "featured_collection",
     "image-with-text-1",
     "image-with-text-2",
