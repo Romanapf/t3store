@@ -115,6 +115,12 @@
   right: 40px;
 }
 
+.slick-prev.slick-arrow:hover,
+.slick-next.slick-arrow:hover {
+  background: #000000;
+  color: white;
+}
+
 .slick-arrow.slick-prev::before,
 .slick-arrow.slick-next::before {
   color: #000000;
