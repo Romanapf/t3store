@@ -1,49 +1,5 @@
 {
   "sections": {
-    "image-with-text": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "All for swim ,bike, run 🏊🚴🏃",
-            "heading_size": "h1"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to share something inspiring about your brand that encourages shoppers to browse your products.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "button": {
-          "type": "button",
-          "settings": {
-            "button_label": "Comprar",
-            "button_link": "shopify:\/\/collections\/all"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "button"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/banner-t3.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "812050e8-e840-4373-a1d9-bd07d1e75c75": {
       "type": "slick-slider",
       "blocks": {
@@ -363,7 +319,6 @@
     }
   },
   "order": [
-    "image-with-text",
     "812050e8-e840-4373-a1d9-bd07d1e75c75",
     "featured_collection",
     "image-with-text-1",
