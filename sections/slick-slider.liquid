@@ -1,21 +1,66 @@
 <h2>{{section.settings.heading}}</h2>
-
+<div class="slick__carousel--container">
+{%- for block in section.blocks -%}
+  <div class="slick__carousel--exterior">
+    <div class="slick__carousel--interior">
+    
+      <div class="slick__carousel--quote">
+      <p>
+        {{ block.settings.title }}
+      </p>
+      </div>
+      <img
+        class="slick__carousel--portrait"
+        src="{{ block.settings.image | img_url: 'master'}}"
+      />
+      <h4 class="slick__carousel--name">{{ block.settings.description }}</h4>
+    </div>
+  </div>
+{% endfor %}
+</div>
 {% schema %}
-{
-  "name": "Slick slider",
-  "settings": [{
-    "type": "text",
-    "id": "heading",
-    "label": "Heading",
-    "default": "My Custom Heading"
-  }],
-  "presets": [{
-    "name": "Slick Slider"
-  }]
-}
-
+  {
+    "name": "Slick Slider",
+    "settings": [
+      {
+        "type": "text",
+        "id": "heading",
+        "label" : "Heading",
+        "default" : "My Custom Heading"
+      }
+    ],
+    "blocks" : [
+      {
+        "type" : "column",
+        "name" : "slide",
+        "settings" : [
+          {
+            "type" : "text",
+            "id" : "title",
+            "label" : "Title",
+            "default" : "Title"
+          },
+          {
+            "type": "image_picker",
+            "id" : "image",
+            "label" :  "Image"
+          },
+          {
+            "type" : "text",
+            "id" : "description",
+            "label" : "Description",
+            "default" : "Description"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Slick Slider"
+      }
+    ]
+  }
 {% endschema %}
-
 {% stylesheet %}
 {% endstylesheet %}
 
