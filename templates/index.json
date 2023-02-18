@@ -8,7 +8,7 @@
           "settings": {
             "title": "Zapatillas",
             "image": "shopify:\/\/shop_images\/zapatillas-t3store.jpg",
-            "description": "Description"
+            "button_link": ""
           }
         },
         "20229a16-7f9a-411c-917b-023f89422da3": {
@@ -16,7 +16,7 @@
           "settings": {
             "title": "Ditchil Women's sports wear",
             "image": "shopify:\/\/shop_images\/t3-store-new-collection.jpg",
-            "description": ""
+            "button_link": ""
           }
         },
         "753fdbb0-3c1d-4649-98d3-4b05c457bf51": {
@@ -24,7 +24,7 @@
           "settings": {
             "title": "Ropa de bicicleta",
             "image": "shopify:\/\/shop_images\/t3-spiuk-collection.jpg",
-            "description": ""
+            "button_link": ""
           }
         },
         "6f8328c5-c402-43e0-8fa7-57a202222797": {
@@ -32,7 +32,7 @@
           "settings": {
             "title": "GPS No pierdas tus vatios",
             "image": "shopify:\/\/shop_images\/t3-coospo-collection.jpg",
-            "description": ""
+            "button_link": ""
           }
         },
         "e03dabcb-6d1c-4b16-aae6-8ea762e1eb1b": {
@@ -40,7 +40,7 @@
           "settings": {
             "title": "Correr nunca fue tan divertida",
             "image": "shopify:\/\/shop_images\/t3store-camisetas.jpg",
-            "description": ""
+            "button_link": "shopify:\/\/collections\/running"
           }
         },
         "734f87cc-a25b-4f26-a59d-340795eca394": {
@@ -48,7 +48,7 @@
           "settings": {
             "title": "Gafas de nadar",
             "image": "shopify:\/\/shop_images\/t3store-swimming-collection.jpg",
-            "description": "Description"
+            "button_link": ""
           }
         }
       },
