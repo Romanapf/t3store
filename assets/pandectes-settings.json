@@ -1,11 +1,11 @@
 {
   "store": {
     "plan": "basic",
-    "theme": "T3STORE DEV by rapf",
+    "theme": "t3store\/develop",
     "primaryLocale": "en",
     "adminMode": false
   },
-  "tsPublished": 1676746603,
+  "tsPublished": 1676804434,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
@@ -292,7 +292,7 @@
       "imprintHref": "\/",
       "close": "&#10005;",
       "target": "",
-      "logo": "<img class=\"cc-banner-logo\" height=\"24\" width=\"24\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0674\/5489\/4360\/t\/7\/assets\/pandectes-logo.png?v=1676745764\" alt=\"t3store\" \/>"
+      "logo": "<img class=\"cc-banner-logo\" height=\"24\" width=\"24\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0674\/5489\/4360\/t\/8\/assets\/pandectes-logo.png?v=1676804420\" alt=\"t3store\" \/>"
     },
     "window": "<div role=\"dialog\" aria-live=\"polite\" aria-label=\"cookieconsent\" aria-describedby=\"cookieconsent:desc\" id=\"pandectes-banner\" class=\"cc-window-wrapper cc-bottom-wrapper\"><div class=\"pd-cookie-banner-window cc-window {{classes}}\"><!--googleoff: all-->{{children}}<!--googleon: all--><\/div><\/div>",
     "compliance": {
@@ -307,7 +307,7 @@
     "revokable": false,
     "animateRevokable": false,
     "revokableReset": false,
-    "revokableLogoUrl": "https:\/\/cdn.shopify.com\/s\/files\/1\/0674\/5489\/4360\/t\/7\/assets\/pandectes-reopen-logo.png?v=1676745769",
+    "revokableLogoUrl": "https:\/\/cdn.shopify.com\/s\/files\/1\/0674\/5489\/4360\/t\/8\/assets\/pandectes-reopen-logo.png?v=1676804419",
     "revokablePlacement": "bottom-left",
     "revokableMarginHorizontal": 15,
     "revokableMarginVertical": 15,
