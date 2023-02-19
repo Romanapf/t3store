@@ -63,9 +63,72 @@
       "settings": {
         "heading": ""
       }
+    },
+    "83831eb4-5767-4221-b969-251819777aae": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Top Running",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "running",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "4b9bf1fb-c6a8-4319-b874-d42d70360998": {
+      "type": "newsletter",
+      "blocks": {
+        "template--17962650042648__4b9bf1fb-c6a8-4319-b874-d42d70360998-1676801009419779b5-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "SUSCRÍBETE A T3STORE COMMUNITY",
+            "heading_size": "h2"
+          }
+        },
+        "template--17962650042648__4b9bf1fb-c6a8-4319-b874-d42d70360998-1676801009419779b5-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Únete a la comunidad T3STORE y recibe promociones y ofertas exclusivas. <\/p><p>Te prometemos no enviarte spam y respetar tu privacidad.<\/p>"
+          }
+        },
+        "template--17962650042648__4b9bf1fb-c6a8-4319-b874-d42d70360998-1676801009419779b5-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--17962650042648__4b9bf1fb-c6a8-4319-b874-d42d70360998-1676801009419779b5-0",
+        "template--17962650042648__4b9bf1fb-c6a8-4319-b874-d42d70360998-1676801009419779b5-1",
+        "template--17962650042648__4b9bf1fb-c6a8-4319-b874-d42d70360998-1676801009419779b5-2"
+      ],
+      "settings": {
+        "color_scheme": "accent-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "812050e8-e840-4373-a1d9-bd07d1e75c75"
+    "812050e8-e840-4373-a1d9-bd07d1e75c75",
+    "83831eb4-5767-4221-b969-251819777aae",
+    "4b9bf1fb-c6a8-4319-b874-d42d70360998"
   ]
 }
