@@ -1,13 +1,39 @@
 <div>
-  <h1>TELA</h1>
-  <p>TELITA</p>
-  <a>TELA</a>
+  <h1>{{section.settings.title}}</h1>
+  <p>{{section.settings.subtitle}}</p>
+  </p>
+  <a href="{{section.settings.url}}">{{section.settings.buttonText}}</a>
 </div>
 
 {% schema %}
   {
     "name": "Section",
-    "settings": []
+    "settings": [{
+      "name": "Title",
+      "id": "title",
+      "type": "text",
+      "label": "Title",
+      "default": "Section"
+    }, {
+      "name": "Subtitle",
+      "id": "subtitle",
+      "type": "text",
+      "label": "Subtitle",
+      "default": "Subtitle"
+    }, {
+      "name": "button text",
+      "id": "buttonText",
+      "type": "text",
+      "label": "button text",
+      "default": "button text"
+    }, {
+      "name": "url",
+      "id": "url",
+      "type": "url",
+      "label": "url",
+      "default": "url"
+    
+    }]
   }
 {% endschema %}
 
