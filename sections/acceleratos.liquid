@@ -1,9 +1,9 @@
 <div class='t3-accelerator'>
     {% for block in section.blocks %}
         <a class="t3-accelerator__slide" href="{{ block.settings.button_link }}">
-            <div class="t3-carousel__slide-container">
-                <img class="t3-carousel__slide-image" src="{{ block.settings.image | img_url: 'master'}}" />
-                <h4 class="t3-carousel__slide-title">
+            <div class="t3-accelerator__slide-container">
+                <img class="t3-accelerator__slide-image" src="{{ block.settings.image | img_url: 'master'}}" />
+                <h4 class="t3-accelerator__slide-title">
                 {{ block.settings.title }}
                 </h4>
             </div>
@@ -76,14 +76,14 @@ background-color: #fff;
 border-radius: 5px;
 }
 
-.t3-carousel__slide-image{
+.t3-accelerator__slide-image{
 width: 100%;
 height: 500px;
 object-fit: cover;
 border-radius: 16px;
 }
 
-.t3-carousel__slide-title{
+.t3-accelerator__slide-title{
 font-size: 2rem;
 font-weight: 800;
 margin-top: 20px;
