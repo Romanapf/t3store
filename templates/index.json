@@ -127,12 +127,21 @@
             "image": "shopify:\/\/shop_images\/t3store-swimming-collection.jpg",
             "button_link": "shopify:\/\/collections\/nino-a"
           }
+        },
+        "66567cd0-2f95-4a08-aff8-d067aca5be57": {
+          "type": "column",
+          "settings": {
+            "title": "Otros deportes",
+            "image": "shopify:\/\/shop_images\/t3-coospo-collection.jpg",
+            "button_link": "shopify:\/\/collections\/hombre"
+          }
         }
       },
       "block_order": [
         "ce35b648-41cb-426a-bdf2-3d0c471c8794",
         "3a02fece-d8ee-48f1-82d4-f08836d2e451",
-        "8ff19ad8-3393-421e-989b-956275bd5203"
+        "8ff19ad8-3393-421e-989b-956275bd5203",
+        "66567cd0-2f95-4a08-aff8-d067aca5be57"
       ],
       "settings": {
         "heading": "Filtrar por deporte"
