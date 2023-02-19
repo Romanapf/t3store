@@ -127,12 +127,21 @@
             "image": "shopify:\/\/shop_images\/t3store-swimming-collection.jpg",
             "button_link": ""
           }
+        },
+        "14788a33-98de-4f15-8e99-8e8de0b2a1f5": {
+          "type": "column",
+          "settings": {
+            "title": "Trail",
+            "image": "shopify:\/\/shop_images\/zapatillas-t3store.jpg",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
         "58304420-f022-4710-96c9-cdd81c440f38",
         "64554756-d0f4-459d-8e74-e63c9ac153d3",
-        "faa4de29-70be-4239-a6f7-ce0fc8cafa28"
+        "faa4de29-70be-4239-a6f7-ce0fc8cafa28",
+        "14788a33-98de-4f15-8e99-8e8de0b2a1f5"
       ],
       "settings": {
       }
