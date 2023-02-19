@@ -1,0 +1,71 @@
+<div>
+  <div class="page-width banner-one">
+    <h1 class="banner-one__title">{{section.settings.title}}</h1>
+    <p class="banner-one__description">{{section.settings.subtitle}}</p>
+    </p>
+    <a class="button banner-one__button" href="{{section.settings.url}}">{{section.settings.buttonText}}</a>
+  </div>
+</div>
+
+{% schema %}
+{
+"name": "Banner One",
+"settings": [
+{
+"type": "image_picker",
+"id": "image",
+"label": "Image"
+},
+{
+"type": "text",
+"id": "title",
+"label": "Title" }, 
+{
+"type": "textarea",
+"id": "subtitle",
+"label": "Subtitle" 
+}, 
+{
+"type": "text",
+"id": "buttonText",
+"label": "button text" 
+}, 
+{
+"type": "url",
+"id": "url",
+"label": "url" 
+}],
+"presets": [{
+"name": "Banner One"
+}]
+}
+
+
+{% endschema %}
+
+{% stylesheet %}
+  .banner-one{
+    background-image: url({{section.settings.image}});
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .banner-one__title{
+    margin: 0;
+  }
+
+  .banner-one__description{
+    margin: 0;
+    max-width: 75ch;
+  }
+
+
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

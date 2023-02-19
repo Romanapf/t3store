@@ -1,8 +1,12 @@
 {
   "sections": {
-    "586d553b-6191-4454-be17-e545c6e58ec3": {
+    "5037eed4-966d-41ae-ab90-0d034fa2ecca": {
       "type": "telita",
       "settings": {
+        "title": "🚀 BIENVENIDOS A T3STORE.ES 🚀",
+        "subtitle": "¡Estamos muy felices de estrenar nuestra tienda online y por eso traemos una promoción de bienvenida que no durará para siempre! Recibe un 5% de descuento con el código T3STORE",
+        "buttonText": "COMPRAR",
+        "url": "shopify:\/\/collections"
       }
     },
     "812050e8-e840-4373-a1d9-bd07d1e75c75": {
@@ -132,7 +136,7 @@
     }
   },
   "order": [
-    "586d553b-6191-4454-be17-e545c6e58ec3",
+    "5037eed4-966d-41ae-ab90-0d034fa2ecca",
     "812050e8-e840-4373-a1d9-bd07d1e75c75",
     "83831eb4-5767-4221-b969-251819777aae",
     "4b9bf1fb-c6a8-4319-b874-d42d70360998"
