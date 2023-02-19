@@ -45,10 +45,9 @@
 {% endschema %}
 
 {% stylesheet %}
---bg-image: url({{section.settings.image}});
 
 .banner-one{
-  background-image: var(--bg-image);
+  background-image: url({{section.settings.image}} | image_url);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
