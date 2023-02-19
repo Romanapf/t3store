@@ -1,3 +1,4 @@
+
 <div>
   <div class="page-width banner-one">
     <h1 class="banner-one__title">{{section.settings.title}}</h1>
@@ -44,27 +45,24 @@
 {% endschema %}
 
 {% stylesheet %}
-  .banner-one{
-    background-image: url({{section.settings.image}});
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-  .banner-one__title{
-    margin: 0;
-  }
-
-  .banner-one__description{
-    margin: 0;
-    max-width: 75ch;
-  }
-
-
+.banner-one{
+  /* background-image: url({{ section.settings.image | img_url: 'master' }}); */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.banner-one__title{
+  margin: 0;
+}
+.banner-one__description{
+  margin: 0;
+  max-width: 75ch;
+}
 {% endstylesheet %}
 
 {% javascript %}
