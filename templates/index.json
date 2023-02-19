@@ -101,50 +101,31 @@
         "padding_bottom": 36
       }
     },
-    "ea8b9fcd-bcdc-4cfc-a266-2d9a1972b8d1": {
-      "type": "slick-slider",
+    "a2712348-0b02-4baa-a65b-c37bff136558": {
+      "type": "acceleratos",
       "blocks": {
-        "ce35b648-41cb-426a-bdf2-3d0c471c8794": {
+        "58304420-f022-4710-96c9-cdd81c440f38": {
           "type": "column",
           "settings": {
             "title": "Ciclismo",
             "image": "shopify:\/\/shop_images\/banner-t3.jpg",
-            "button_link": "shopify:\/\/collections\/ropa-ciclismo"
+            "button_link": ""
           }
         },
-        "3a02fece-d8ee-48f1-82d4-f08836d2e451": {
+        "64554756-d0f4-459d-8e74-e63c9ac153d3": {
           "type": "column",
           "settings": {
-            "title": "Carrera",
+            "title": "Running",
             "image": "shopify:\/\/shop_images\/zapatillas-t3store.jpg",
-            "button_link": "shopify:\/\/collections\/running"
-          }
-        },
-        "8ff19ad8-3393-421e-989b-956275bd5203": {
-          "type": "column",
-          "settings": {
-            "title": "Natación",
-            "image": "shopify:\/\/shop_images\/t3store-swimming-collection.jpg",
-            "button_link": "shopify:\/\/collections\/nino-a"
-          }
-        },
-        "66567cd0-2f95-4a08-aff8-d067aca5be57": {
-          "type": "column",
-          "settings": {
-            "title": "Otros deportes",
-            "image": "shopify:\/\/shop_images\/t3-coospo-collection.jpg",
-            "button_link": "shopify:\/\/collections\/hombre"
+            "button_link": ""
           }
         }
       },
       "block_order": [
-        "ce35b648-41cb-426a-bdf2-3d0c471c8794",
-        "3a02fece-d8ee-48f1-82d4-f08836d2e451",
-        "8ff19ad8-3393-421e-989b-956275bd5203",
-        "66567cd0-2f95-4a08-aff8-d067aca5be57"
+        "58304420-f022-4710-96c9-cdd81c440f38",
+        "64554756-d0f4-459d-8e74-e63c9ac153d3"
       ],
       "settings": {
-        "heading": "Filtrar por deporte"
       }
     },
     "4b9bf1fb-c6a8-4319-b874-d42d70360998": {
@@ -186,7 +167,7 @@
     "4ab4cb6a-3c04-4457-b5db-737c6db7b92f",
     "812050e8-e840-4373-a1d9-bd07d1e75c75",
     "83831eb4-5767-4221-b969-251819777aae",
-    "ea8b9fcd-bcdc-4cfc-a266-2d9a1972b8d1",
+    "a2712348-0b02-4baa-a65b-c37bff136558",
     "4b9bf1fb-c6a8-4319-b874-d42d70360998"
   ]
 }
